@@ -1,5 +1,8 @@
 # CloudFlareDNSDump
-[![Pylint](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/pylint.yml/badge.svg)](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/pylint.yml)
+[![Pylint](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/pylint.yml/badge.svg)](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/pylint.yml) 
+[![CodeQL](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/codeql.yml/badge.svg)](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/codeql.yml) 
+[![Bandit](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/bandit.yml/badge.svg)](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/bandit.yml) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/ob1lan/Abandoned_S3_Bucket_Takeover/main/LICENSE)
 ## Purpose
 This Python script uses the CloudFlare API to first get all DNS zones IDs, and then export all DNS records for all zones.
 ## Usage
