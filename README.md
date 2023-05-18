@@ -1,4 +1,5 @@
 # CloudFlareDNSDump
+[![Pylint](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/pylint.yml/badge.svg)](https://github.com/ob1lan/CloudFlareDNSDumper/actions/workflows/pylint.yml)
 ## Purpose
 This Python script uses the CloudFlare API to first get all DNS zones IDs, and then export all DNS records for all zones.
 ## Usage
