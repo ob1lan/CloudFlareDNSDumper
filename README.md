@@ -9,5 +9,8 @@ git clone https://github.com/ob1lan/CloudFlareDNSDump.git
 pip install pandas
 python cloudflare_dns_dumper.py
 ```
+This will get through all the DNS zones you have access to, and then exports all (sub)domains into those files:
+- results.json
+- results.csv
 ## To Do
 - Error handling and logging
